@@ -5,8 +5,6 @@
 package com.mycompany.lab2_encapsulamiento;
 
 import javax.swing.JOptionPane;
-import org.w3c.dom.ranges.RangeException;
-
 /**
  *
  * @author zarat
@@ -61,11 +59,7 @@ public class ObjetoCalculadora {
     }
 
     public double calcularDivision() {
-        return resultado = numero2 != 0 ? numero1 / numero2: 0;
-    }
-
-    private Exception RangeException() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return resultado = numero1 / numero2;
     }
 }
 
